@@ -1,0 +1,30 @@
+{
+  "name": "raspi-dynamics",
+  "version": "1.0.0",
+  "description": "基于树莓派的远程动力控制",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.16.2",
+    "body-parser": "~1.15.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.2.0",
+    "jade": "~1.11.0",
+    "morgan": "~1.7.0",
+    "serve-favicon": "~2.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mayonglei/raspi-dynamics.git"
+  },
+  "author": "mayonglei",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mayonglei/raspi-dynamics/issues"
+  },
+  "homepage": "https://github.com/mayonglei/raspi-dynamics#readme"
+}
