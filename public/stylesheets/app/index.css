@@ -1,0 +1,64 @@
+body {
+    background-color: lightgray;
+    position: relative;
+}
+
+.img-stream {
+    width: 100%;
+}
+
+.control-pnl {
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+.control-left {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.control-right {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.div-ctl {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    text-align: center;
+    line-height: 60px;
+    font-size: 32px;
+    font-weight: bolder;
+    background-color: lightgray;
+    opacity: 0.4;
+}
+
+.div-up {
+    top: 0px;
+    left: 70px;
+}
+
+.div-down {
+    top: 130px;
+    left: 70px;
+}
+
+.div-left {
+    top: 70px;
+    left: 0px;
+}
+
+.div-right {
+    top: 70px;
+    left: 130px;
+}
