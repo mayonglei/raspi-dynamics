@@ -13,13 +13,13 @@ router.get('/move', function (req, res, next) {
         res.json(rr);
         return;
     }
-    dc.move(req.query.dir.toLowerCase());
+    dc.move(req.query.dir.toLowerCase(), 128);
     res.json(rr);
 });
 
 router.get('/stop', function (req, res, next) {
     var rr = {'status': 200, 'err_msg': '', 'data': ''};
-    dc.stop();
+    dc.move(req.query.dir.toLowerCase(), 0);
     res.json(rr);
 });
 
