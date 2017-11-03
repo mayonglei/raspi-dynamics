@@ -13,6 +13,7 @@ var dynamicController = function () {
 
 //移动,[dir]f:进,b:退,l:左,r:右;[speed]速度，1-10
 dynamicController.prototype.move = function (dir, speed) {
+    console.log('motor move,dir:' + dir + ',speed:' + speed);
     doMove(dir, speed);
 }
 
@@ -81,8 +82,8 @@ function setSpeed(speed) {
         speed = 1024;
     }
 
-    for (var i = 0; i < pins.length; i++) {
-        var command = 'gpio pwm ' + pins[i] + ' ' + speed;
+    for (var i = 0; i < gPinLREn.length; i++) {
+        var command = 'gpio pwm ' + gPinLREn[i] + ' ' + speed;
         shell.execute(command);
     }
 }

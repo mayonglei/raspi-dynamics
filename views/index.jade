@@ -11,11 +11,10 @@ block content
         div#controlPnl(class='control-pnl')
             div#controlLeft(class='control-left')
             div#controlRight(class='control-right')
-                div#divUp(class='div-ctl div-up') ↑
-                div#divLeft(class='div-ctl div-left') ←
-                div#divRight(class='div-ctl div-right') →
-                div#divDown(class='div-ctl div-down') ↓
-
+                div#divUp(class='div-ctl div-up' dir='f') ↑
+                div#divLeft(class='div-ctl div-left' dir='l') ←
+                div#divRight(class='div-ctl div-right' dir='r') →
+                div#divDown(class='div-ctl div-down' dir='b') ↓
 
         img#imgStream(class='img-stream' src='http://10.1.2.222:8081/?action=stream')
 
