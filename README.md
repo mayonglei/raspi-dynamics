@@ -15,11 +15,19 @@
 * 支持密码
 
 ## 2.物料
-### 树莓派
-### 摄像头
+### 树莓派3b+
+https://item.taobao.com/item.htm?spm=a230r.1.14.1.49cce10cU9sO1o&id=527630316715&ns=1&abbucket=2#detail
+### TF卡，推荐16G
+https://item.jd.com/4607941.html?dist=jd
+### 摄像头、数据线
+https://item.taobao.com/item.htm?spm=a1z10.5-c-s.w4002-14802299686.15.50374c0bIVSHwz&id=536712064657
 ### L298N驱动
-### 车体/船体
+https://item.taobao.com/item.htm?spm=a1z09.2.0.0.50c7b9b6wsv4Ua&id=520257233142&_u=41f2ofucef4
+### 电机/车轮/车体/船体
+https://item.taobao.com/item.htm?spm=a1z09.2.0.0.50c7b9b6wsv4Ua&id=537704318026&_u=41f2ofu99c9
 ### 电源
-### 其他
+https://item.jd.com/5054737.html?dist=jd
+### 其他(杜邦线、USB线等)
+杜邦线：https://detail.tmall.com/item.htm?id=41065178536&spm=a1z09.2.0.0.50c7b9b6wsv4Ua&_u=41f2ofu5339&sku_properties=122216547:20213
 
 ## 3.步骤
